@@ -227,7 +227,6 @@ L.Routing.control({
         const data = jsonData[i];
         const updatedHora = addTwoHours(data.Hora);
         marker.bindPopup(`
-    <strong>Data:</strong> ${data.Data}<br>
     <strong>Hora:</strong> ${updatedHora}<br>
     <strong>Temp:</strong> ${data.Temp}<br>
     <strong>Hum:</strong> ${data.Hum}
